@@ -53,7 +53,7 @@ GigShield AI introduces:
 ## 🔄 Workflow
 
 <p align="center">
-  <img src="./assets/workflow.png" width="420"/>
+  <img src="https://raw.githubusercontent.com/BVIPD/Hackathon-TIVAS/main/workflow.png" width="350"/>
 </p>
 
 ---
