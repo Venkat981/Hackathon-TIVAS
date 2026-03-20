@@ -1,146 +1,180 @@
-# Hackathon-TIVAS
-🛡️ GigShield AI – Parametric Insurance for Gig Workers
+---
 
-🚀 Overview
+# 🛡️ GigShield AI – Parametric Insurance for Gig Workers
 
-GigShield AI is an AI-powered parametric insurance platform designed to protect gig delivery workers from income loss caused by external disruptions such as:
+---
 
-Heavy rainfall 🌧️
+## 🚀 Overview
 
-Flooding 🌊
+GigShield AI is an **AI-powered parametric insurance platform** designed to protect gig delivery workers from income loss caused by external disruptions such as:
 
-Pollution 🌫️
+* 🌧️ Heavy rainfall
+* 🌊 Flooding
+* 🌫️ Pollution
+* 🚫 Curfews / strikes
 
-Curfews / strikes 🚫
+Unlike traditional insurance, GigShield provides **instant, automated payouts** based on real-time triggers — **no manual claims required**.
 
-Unlike traditional insurance, GigShield provides instant, automated payouts based on real-time triggers — no claims process required.
+---
 
-🎯 Problem Statement
+## 🎯 Problem Statement
 
-Delivery partners lose up to 20–30% of their income due to uncontrollable disruptions.
+Delivery partners lose up to **20–30% of their income** due to uncontrollable disruptions. 
 
-There is currently:
+### Current Challenges
 
-❌ No income protection
+* ❌ No income protection
+* ❌ No real-time insurance
+* ❌ No automated payouts
 
-❌ No real-time insurance
+---
 
-❌ No automated payouts
-
-💡 Solution
+## 💡 Solution
 
 GigShield AI introduces:
 
-✅ Parametric insurance model
+* ✅ Parametric insurance model
+* ✅ Weekly subscription pricing
+* ✅ AI-powered risk prediction
+* ✅ Zero-touch claim processing
 
-✅ Weekly subscription pricing
+---
 
-✅ AI-powered risk detection
+## 👤 Target Persona
 
-✅ Zero-touch claim processing
+**Name:** Ramesh
+**Role:** Swiggy/Zomato Delivery Partner
 
-👤 Target Persona
+* ❗ Problem: Cannot work during heavy rain → loses daily income
+* 🎯 Goal: Stable weekly income
 
-Name: Ramesh
-Role: Swiggy/Zomato Delivery Partner
-Problem: Cannot work during heavy rain → loses daily income
-Goal: Stable weekly income
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/9f9b3196-9cea-41e6-b5d2-1fd20d1bee8a" />
+---
 
-💰 Weekly Pricing Model
+## 🔄 Workflow
 
-Base premium: ₹49/week
+<p align="center">
+  <img src="./assets/workflow.png" width="420"/>
+</p>
 
-Adjusted based on:
+---
 
-Location risk
+## 💰 Weekly Pricing Model
 
-Historical disruptions
+| Factor          | Description                      |
+| --------------- | -------------------------------- |
+| Base Premium    | ₹49/week                         |
+| Location Risk   | High-risk zones → higher premium |
+| Historical Data | Past disruptions considered      |
+| Work Hours      | Coverage adjusted                |
 
-Work hours
+---
 
-⚙️ Features
-🔹 Core Features
+## ⚙️ Features
 
-Real-time disruption monitoring
+### 🔹 Core Features
 
-AI-based risk prediction
+* Real-time disruption monitoring
+* AI-based risk prediction
+* Automated claim triggering
+* Instant payout simulation
 
-Automated claim triggering
+---
 
-Instant payout simulation
+### 📊 Dashboard Features
 
-🔹 Dashboard
+* Weekly protected income
+* Active disruption zones
+* Alerts & notifications
 
-Weekly protected income
+---
 
-Active disruption zones
+## 🤖 AI / ML Integration
 
-Alerts & notifications
+* 📈 Risk scoring model for premium calculation
+* 🌦️ Predictive disruption modeling
+* 🚨 Fraud detection using anomaly detection
 
-🤖 AI/ML Integration
+---
 
-Risk scoring model for premium calculation
+## 🛡️ Adversarial Defense & Anti-Spoofing Strategy
 
-Predictive disruption modeling
+⚠️ Addressing GPS spoofing & coordinated fraud attacks 
 
-Fraud detection via anomaly detection
+---
 
-🛡️ Adversarial Defense & Anti-Spoofing Strategy
-1. Differentiation
+### 1️⃣ Differentiation
 
-Cross-check GPS with:
+Our system validates beyond GPS:
 
-Device motion (accelerometer)
+* Device motion (accelerometer)
+* Network signals consistency
+* Route continuity tracking
 
-Network signals
+---
 
-Route consistency
+### 2️⃣ Data Signals Used
 
-2. Data Signals
+* Speed & movement patterns
+* Battery usage anomalies
+* Multi-user clustering behavior
+* Historical activity patterns
 
-Speed & movement patterns
+---
 
-Battery usage anomalies
+### 3️⃣ UX Balance
 
-Multi-user clustering patterns
+* ⚠️ Suspicious claims → sent to review queue
+* ✅ Genuine users → fallback payout system
+* 🎯 Goal: Minimal friction experience
 
-Historical behavior
+---
 
-3. UX Balance
+## 🧠 Tech Stack
 
-Flagged claims → review queue
+| Layer      | Technology                     |
+| ---------- | ------------------------------ |
+| Frontend   | Next.js / React                |
+| Styling    | Tailwind CSS                   |
+| Deployment | Vercel                         |
+| APIs       | Mock Weather + Disruption APIs |
 
-Genuine users → fallback payout
+---
 
-Minimal friction experience
+## 🖥️ Prototype
 
-🧠 Tech Stack
+🔗 **Live Demo:**
+[https://gigshield-ai-opal.vercel.app/safe-routes](https://gigshield-ai-opal.vercel.app/safe-routes)
 
-Frontend: Next.js / React
+---
 
-Styling: Tailwind CSS
+## ⚡ How to Run Locally
 
-Deployment: Vercel
-
-APIs: Mock Weather + Disruption APIs
-
-🖥️ Prototype
-
-🔗 Live Demo:
-https://gigshield-ai-opal.vercel.app/safe-routes
-
-⚡ How to Run Locally
+```bash
 git clone https://github.com/your-username/gigshield-ai
 cd gigshield-ai
 npm install
 npm run dev
-📌 Future Scope
+```
 
-Real payment integration (UPI / Razorpay)
+---
 
-Advanced ML fraud detection
+## 📌 Future Scope
 
-Route optimization engine
+* 💳 Real payment integration (UPI / Razorpay)
+* 🧠 Advanced ML fraud detection
+* 🗺️ Route optimization engine
+* 📱 Mobile application
 
-Mobile app
+---
+
+## 🏁 Conclusion
+
+GigShield AI enables:
+
+* 💰 Financial protection for gig workers
+* ⚡ Instant automated payouts
+* 🛡️ Secure, fraud-resistant insurance
+
+---
+
+
