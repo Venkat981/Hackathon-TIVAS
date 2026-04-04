@@ -143,7 +143,7 @@ Our system validates beyond GPS:
 ## 🖥️ Prototype
 
 🔗 **Live Demo:**
-[https://gigshield-ai-opal.vercel.app/safe-routes](https://gigshield-ai-opal.vercel.app/safe-routes)
+[https://gigshield-ai-opal.vercel.app/safe-routes](https://gigshield-ai-opal.vercel.app/dashboard)
 
 ---
 
